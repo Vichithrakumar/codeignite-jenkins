@@ -62,7 +62,7 @@ echo "Running terraform Plan"
 terraform plan -out "tfplan"
 
 echo -e "\e[1;31m===========================================================================\e[0m"
-echo -e "\e[1;31mPlease verify the plan. You can run the \"terraform apply command\" \e[0m"
+echo -e "\e[1;31mPlease verify the plan.Then You can run the \"terraform apply\" command to apply\e[0m"
 echo -e "\e[1;31m===========================================================================\e[0m"
 
 #echo "applying terraform"
