@@ -16,4 +16,4 @@ The Docker compose files will create automatically and run automatically.
 
 # How to run the script
 
-** git clone https://github.com/Vichithrakumar/codeignite-jenkins.git ; cd codeignite-jenkins ; bash bash.sh **
+**git clone https://github.com/Vichithrakumar/codeignite-jenkins.git ; cd codeignite-jenkins ; bash bash.sh**
