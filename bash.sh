@@ -1,6 +1,6 @@
 #!/bin/bash
 echo ""
-echo "\e[1;31mPlease input the values prompting\e[0m"
+echo -e "\e[1;31mPlease input the values prompting\e[0m"
 echo ""
 echo ""
 echo "Enter the Region (For eg: ap-south-1, us-west-2 etc...) "
@@ -60,8 +60,10 @@ echo "Running terraform init"
 terraform init
 echo "Running terraform Plan"
 terraform plan -out "tfplan"
-echo "applying the Configuration......"
-terraform apply "tfplan"
+
+echo -e "\e[1;31m===========================================================================\e[0m"
+echo -e "\e[1;31mPlease verify the plan. You can run the \"terraform apply command\" \e[0m"
+echo -e "\e[1;31m===========================================================================\e[0m"
 
 #echo "applying terraform"
 #terraform apply
