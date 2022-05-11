@@ -1,11 +1,11 @@
 #!/bin/bash
 echo ""
-echo "Please input the values promting"
+echo "\e[1;31mPlease input the values prompting\e[0m"
 echo ""
 echo ""
 echo "Enter the Region (For eg: ap-south-1, us-west-2 etc...) "
 read region
-echo "Enter the VPC Network (Make sure you include the Range with Subnet mask like 10.1.0.0/16"
+echo "Enter the VPC Network (Make sure you include the Range with Subnet mask like 10.1.0.0/16)"
 read vpc  #reading the VPC network with Mask
 
 echo -e "\e[1;31m===========================================================================\e[0m"
