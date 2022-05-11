@@ -3,8 +3,8 @@ resource "aws_instance" "instance3" {
   instance_type               = var.jenkins_inst_type
   key_name                    = var.key
   vpc_security_group_ids      = [aws_security_group.sg-jenkins.id]
-  subnet_id                   = aws_subnet.privatesubnet1.id
-  associate_public_ip_address = false
+  subnet_id                   = aws_subnet.publicsubnet1.id
+  associate_public_ip_address = true
   user_data                   = <<EOF
 #!/bin/bash -xe
 apt-get update -y
