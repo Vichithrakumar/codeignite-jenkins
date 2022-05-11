@@ -1,4 +1,8 @@
 #!/bin/bash
+echo ""
+echo "Please input the values promting"
+echo ""
+echo ""
 echo "Enter the Region (For eg: ap-south-1, us-west-2 etc...) "
 read region
 echo "Enter the VPC Network (Make sure you include the Range with Subnet mask like 10.1.0.0/16"
